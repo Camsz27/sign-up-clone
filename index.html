@@ -29,30 +29,48 @@
     </div>
     <div id="form">
       <h1 class="form">Create an Intuit account</h1>
-      <h3 class="form">One account for everything Intuit, including Mint.</h3>
-      <a>Learn more</a>
+      <h6 class="form">One account for everything Intuit, including Mint.</h6>
+      <a class="form">Learn more</a>
       <br />
       <form>
         <label for="email">Email address</label><br />
         <input type="email" id="email" /><br />
         <label for="phone">Phone (recommended)</label><br />
         <input type="tel" id="phone" />
-        <p>Standard call, message, or data rates may apply.</p>
+        <p id="disclaimer">Standard call, message, or data rates may apply.</p>
         <label for="password">Password</label><br />
         <input type="password" id="password" />
-        <button type="submit">
+        <button type="submit" id="submit">
           <img src="./Images/lock.svg" alt="lock icon" />
-          Create account
+          Create Account
         </button>
       </form>
-      <p class="form">
-        By selecting Create Account, you agree to our <a>Terms</a> and
+      <p class="terms">
+        By selecting Create Account, you agree to our
+        <a class="termsRef">Terms</a> and
       </p>
-      <p class="form">have read and acknowledge our <a>Global Privacy</a></p>
-      <a>Statement</a>
-      <p>
+      <p class="terms">
+        have read and acknowledge our <a class="termsRef">Global Privacy</a>
+      </p>
+      <a class="termsRef">Statement</a>
+      <p class="foot">
         Invisible reCAPTCHA by Google <a>Privacy Policy</a> and
         <a>Terms of Use</a>.
+      </p>
+    </div>
+    <div class="trademarks">
+      <div>
+        <p>Legal</p>
+        <p>Privacy</p>
+        <p>Security</p>
+      </div>
+      <p>
+        © 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      </p>
+      <p>
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
       </p>
     </div>
     <footer><a>Privacy Settings</a></footer>
