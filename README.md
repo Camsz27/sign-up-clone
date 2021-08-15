@@ -9,7 +9,7 @@ This is the link to the original page [Click Here](https://accounts.intuit.com/s
 
 ## Description
 
-The goal of this project was to reinforce my HTML and CSS skills by making a a form that looks like the original.
+The goal of this project was to reinforce my HTML and CSS skills by making a form that looks like the original.
 
 ## Built With
 
